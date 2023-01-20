@@ -30,7 +30,7 @@ GET http://localhost:3001/api/v1/categories/total
 
 
 ###
-GET http://localhost:3001/api/v1/products?page=1&limit=2&category=computers-tech
+GET http://localhost:3001/api/v1/products?page=1&limit=5
 # &category=computers-tech&sortBy=name&sortOrder=asc
 # ?page=1&limit=2&category=computers-tech
 # ?sortBy=price&sortOrder=asc
