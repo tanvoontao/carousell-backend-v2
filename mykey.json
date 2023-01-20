@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carousell-clone-373707",
+  "private_key_id": "fdd7e1a639c15c089a8b3921ec100fe84d190f9c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCdDjP6Z8kCBPXn\noQ5Gm0K9J3hhmEMPF8xSls8N2yzbYN+y3yOePoxkWzjg3hPDTUHhEqqFv5UOM0IT\n9vuUP1tHt4thuxPGLggkxZuPXKtiucegZFqKV9d/FSNViPoSsE9e1ZABJSspmbMQ\nSy7hUM3d9+iVF576xuGkG79pfYeWQb1rqLBp90Rpfta2GsPHNLQQyJupxW3V0kxL\nGv0iBMWOz+li6Vnszi5WR7U5fBO0tSiv4XRQRUYbjAeYOWNy5YItNFJkj5d2a+oI\nqwtOOJAZsbwpkFcaBMHd71efDZZqle4thrsFWyu2RLNy5KJcXvbPKBCwLomW5LzU\nJvKug7WFAgMBAAECggEANhSY82XfgnGA15TO3KND9OxteHW8yaqxMdM6UxQgux39\niZNqqWfyYfBDgrMV7Q9iWwVZcJrK0cv2ufc3JBI49VYPicSoh3p8VWUyLsiDP4in\nY+SKhM7ApsL5ms+DBQJvIkG5x5sr5LRHQ5oP94gii4d9MDGlDceEFUV0wPd3w9Yv\nB8Ky5z0er7XfhJJvuAvbl8qNi1/E3hbKbUPzhSAVvRYmfGaw2tbEUfgqJub8Ot+u\n4Q1wuVLkFD1/fqulJPLBUr8YDjEHj0Xvq2PSDs3unZ4Wp0Vell3039A2bGhI1e3Q\n0iiF0VL6QzJoow/G/29XcsRpmA7POGulc3KmK1fWdQKBgQDSrWgF+INRdfLK9rcM\nf4W+wMYqBlBkI4AXdbbKg7yhXYbg35aIFavvDRBQ7VzF0tdE/DzNWjGi7zfhpV+0\n/l5oS4LoIB4W1+G/MIbjI7EXZhIqMN8K1+KWTItxERCwDTS+1x9xkoVzoIas52NM\nQt4o+kREKZPmpncgF/BJHkWdEwKBgQC+17Bc1AgxeFVjTpAInGqjL5wD3/N/foc+\nvHnGxSDNS6lNoxWvGVpdOc5D/Se4UDMQILky3pOJUZZSHsi2g5f9PmFOWLbRK2pK\nl6rw8qMuG89ZGZQcg7IT0PMdqwgmfW4tN2tKpxw88aBxOtslZb4HZrIhfKxozG9n\n81U3UXEuBwKBgCiuYWrdvQXK39I/Z8NbEIlwEhPlWjqr/D0LdvuOCquiMrxTkG7A\nuI2VmTP3UbXFa9ofVuJUa0dKKCFDXMLHZ5V+F04ZfZXto+LWTQWpS7X3+MP64ebn\nHxLkvvxbTjygoDHFuoWkxG46bicPG0aLlviUsv/yg2PDezdQSA7mcIzPAoGBAKWX\nvf4uNRXH1j+fEbeHEbibPQLXtg8wmOXE4N2qevXn6vXkxpHyq8gsul+gMHDrlgMu\ngcQ0AUyrsIV9FKfZs24YTJKQw8DnrQkgZUFBKHp/wwELAstjMoejTPC3UREk0Q8H\nAV/7dLMk7hSR/0mJ6MO/Rl1sMqWUji5io9SmJFDNAoGBANGCfnpFwrQL7ADSl3TE\nJTnsKdGhvBRSdbXmayS+784TgCW190VKPuRGqJV6sO5xGfMIGKx0mNTWRrg3W8Ns\n4Aeoi7EZvPs39QLwRpbosGxNqgED/imEA/id2V82QSxp8m83RlWh2+hgRUrZJsjK\nJ+0qThEYWGsOX520AiYt/+LQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "voontao@carousell-clone-373707.iam.gserviceaccount.com",
+  "client_id": "116153245107018889122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voontao%40carousell-clone-373707.iam.gserviceaccount.com"
+}

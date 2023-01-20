@@ -1,0 +1,146 @@
+POST http://localhost:3001/api/v1/categories/
+Content-Type: application/json
+
+{
+    "name": "cefe efef ef",
+    "description": " efe ef effef",
+    "images": "https://storage.googleapis.com/carousell-clone-image-v2/app.png"
+}
+
+### 
+
+GET http://localhost:3001/api/v1/categories
+
+###
+
+GET http://localhost:3001/api/v1/categories/new-na
+
+###
+
+DELETE http://localhost:3001/api/v1/categories/63c8ac444b2b66596b0d3b40
+
+###
+
+GET http://localhost:3001/api/v1/categories?page=1
+
+
+###
+
+GET http://localhost:3001/api/v1/categories/total
+
+
+###
+GET http://localhost:3001/api/v1/products?page=1&limit=2&category=computers-tech
+# &category=computers-tech&sortBy=name&sortOrder=asc
+# ?page=1&limit=2&category=computers-tech
+# ?sortBy=price&sortOrder=asc
+
+### 
+
+POST http://localhost:3001/api/v1/products
+Content-Type: application/json
+
+{
+    "name": "🔥test✅",
+    "price": "1399.00",
+    "brand": "Reno",
+    "category": "mobile-phones-gadgets",
+    "location": "Pertama Complex",
+    "condition": "Like new",
+    "description": "qqqqq",
+    "images": [
+        "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-0.jpg",
+        "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-1.jpg",
+        "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-2.jpg"
+    ]
+}
+
+# "name": "1",
+#     "price": "2200",
+#     "brand": "RTX",
+#     "category": "computers-tech",
+#     "location": "Shah Alam",
+#     "condition": "Brand new",
+#     "description": "1",
+#     "images": [
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-com-0.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-com-1.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-com-2.jpg"
+#     ]
+
+# {
+#     "name": "UNIQ Heldro Mount Case for iPhone 14 Pro",
+#     "price": "85",
+#     "brand": "UNIQ",
+#     "category": "mobile-phones-gadgets",
+#     "location": "Kuala Lumpur",
+#     "condition": "Heavily used",
+#     "description": "UNIQ Heldro Mount Case for iPhone 14 Pro (without wrist strap)\n\n- Authentic\n- Used once for less than a day\n- Letting go because I decided to get a purple case to match my purple phone\n- First pay first serve basis\n- Booking with payment else will not be entertained\n- NO RETURN, NO REFUND, NO WARRANTY\n- COD\nSelayang / Gombak - everyday\nCheras Hartamas - Monday, Wednesday, Friday (4-6.30pm), Saturday (9-11.30am), Sunday (8-10.30am)\n\n* While I have tried my best to take pictures from every single angle, please note that if at all I miss a spot or two it is not done intentionally 🙏🏼\n\nThank you & happy shopping!",
+#     "images": [
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-3.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-4.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-5.jpg"
+#     ]
+# }
+
+# {
+#     "name": "🔥OPPO RENO 8z(8/256GB)🔥ACCEPT TRADE IN✅",
+#     "price": "1399.00",
+#     "brand": "Reno",
+#     "category": "mobile-phones-gadgets",
+#     "location": "Pertama Complex",
+#     "condition": "Like new",
+#     "description": "RM 1399 | OPPO RENO 8z | FULLSET 🔥\n\nACCEPT TRADE IN WITH HIGH PRICE⬆️\nACCEPT TRADE IN WITH HIGH PRICE⬆️\n\n ⚡️ Snapdragon 695 5G\n 💥 AMOLED, 430 nits (typ), 600 nits (HBM)\n 🔋BATTERY 4500mAh\n\n▫️CONDITION 10/10\n▫️ALL FUNCTION \n▫️8/256GB\n▫️FULLSET\n▫️5 MONTH WARRANTY\n▫️100% ORIGINAL \n▫️GET FREE ACCESSORIES\n\n \n🛺COD KL & SELANGOR (CHARGED)\n📦POSTAGE SEMENANJUNG & SABAH SARAWAK \n🛒WALK IN AT PERTAMA KOMPLEKS KL \n📲WHATSAPP OR CALL ME\n\n- wasap.my/601153774104\n- Wasap.my/601153774104\n- Wasap.my/601153774104\n- Wasap.my/601153774104\n- Wasap.my/601153774104",
+#     "images": [
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-0.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-1.jpg",
+#         "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-2.jpg"
+#     ]
+# }
+
+
+###
+
+
+GET http://localhost:3001/api/v1/products/63c8b48e3a861a6a26938d63
+
+###
+
+
+PATCH http://localhost:3001/api/v1/products/63c8b48e3a861a6a26938d63
+Content-Type: application/json
+
+{
+  "name": "newssssss",
+  "price": 0,
+  "brand": "Reno",
+  "category": "mobile-phones-gadgets",
+  "location": "Pertama Complex",
+  "condition": "Like new",
+  "description": "qqqqq",
+  "images": [
+    "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-0.jpg",
+    "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-1.jpg",
+    "https://storage.googleapis.com/carousell-clone-image-v2/carousell-phone-2.jpg"
+  ],
+  "dateCreated": "2023-01-19T03:10:06.392Z"
+}
+
+
+###
+
+
+DELETE http://localhost:3001/api/v1/products/63c8b48e3a861a6a26938d63
+
+
+###
+
+PATCH http://localhost:3001/api/v1/categories/new-na
+Content-Type: application/json
+
+{
+  "id": "63c6105911f7cb02ed982fb7",
+  "slug": "new-na",
+  "name": "new na",
+  "description": "new 1111111"
+}
